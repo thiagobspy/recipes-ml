@@ -2,125 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498c4294-c98c-4b5b-b0fe-6f34e3b3f676" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/01_set_option_pandas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/02_shape.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/03_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/04_sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/05_count_missing_unique.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/06_describe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/07_columns.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/08_type_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/09_correlation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/10_plots_count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/11_count_values.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/12_cut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/13_plots_counts_by_group.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/analyse/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digits/cnn_win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digits/dojo_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digits/dojo_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digits/dojo_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digits/dojo_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digits/sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digits/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digits/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_02/scipy_versions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_02/scipy_versions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_02/sklearn_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_02/sklearn_version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_03/matplotlib_crash_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_03/matplotlib_crash_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_03/numpy_crash_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_03/numpy_crash_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_03/pandas_crash_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_03/pandas_crash_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_03/python_crash_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_03/python_crash_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_04/load_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_04/load_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_04/load_csv_np.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_04/load_csv_np.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_04/load_csv_np_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_04/load_csv_np_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_04/load_csv_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_04/load_csv_pandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_04/load_csv_pandas_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_04/load_csv_pandas_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_04/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_04/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_05/class_distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_05/class_distribution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_05/data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_05/data_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_05/describe.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_05/describe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_05/dimensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_05/dimensions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_05/head.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_05/head.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_05/pearson_correlation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_05/pearson_correlation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_05/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_05/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_05/skew.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_05/skew.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_06/boxplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_06/boxplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_06/correlation_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_06/correlation_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_06/correlation_matrix_generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_06/correlation_matrix_generic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_06/density_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_06/density_plots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_06/histograms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_06/histograms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_06/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_06/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_06/scatterplot_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_06/scatterplot_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_07/binarization.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_07/binarization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_07/normalize_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_07/normalize_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_07/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_07/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_07/rescale_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_07/rescale_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_07/standardize_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_07/standardize_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_08/feature_importance.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_08/feature_importance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_08/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_08/pca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_08/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_08/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_08/recursive_feature_elimination.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_08/recursive_feature_elimination.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_08/univariate_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_08/univariate_selection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09/cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_09/cross_validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09/loocv.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_09/loocv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_09/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09/shuffle_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_09/shuffle_split.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09/train_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_09/train_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/classification_accuracy.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/classification_accuracy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/classification_auc.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/classification_auc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/classification_confusion_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/classification_confusion_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/classification_logloss.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/classification_logloss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/classification_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/classification_report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/housing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/housing.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/regression_mae.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/regression_mae.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/regression_mse.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/regression_mse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_10/regression_rsquared.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_10/regression_rsquared.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_11/classification_and_regression_trees_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_11/classification_and_regression_trees_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_11/gaussian_naive_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_11/gaussian_naive_bayes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_11/k_nearest_neighbors_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_11/k_nearest_neighbors_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_11/linear_discriminant_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_11/linear_discriminant_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_11/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_11/logistic_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_11/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_11/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_11/support_vector_machines_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_11/support_vector_machines_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/classification_and_regression_trees_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_12/classification_and_regression_trees_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/elastic_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_12/elastic_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/housing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_12/housing.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/k_nearest_neighbors_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_12/k_nearest_neighbors_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/lasso_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_12/lasso_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_12/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/ridge_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_12/ridge_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/support_vector_machines_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_12/support_vector_machines_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_13/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_13/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_13/race_algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_13/race_algorithms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_14/feature_union_model_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_14/feature_union_model_pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_14/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_14/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_14/standardize_model_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_14/standardize_model_pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_15/adaboost_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_15/adaboost_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_15/bagged_cart_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_15/bagged_cart_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_15/extra_trees_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_15/extra_trees_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_15/gradient_boosting_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_15/gradient_boosting_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_15/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_15/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_15/random_forest_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_15/random_forest_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_15/voting_ensemble_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_15/voting_ensemble_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_16/grid_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_16/grid_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_16/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_16/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_16/random_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_16/random_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_17/pima-indians-diabetes.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_17/pima-indians-diabetes.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_17/save_model_joblib.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_17/save_model_joblib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_17/save_model_pickel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_17/save_model_pickel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_18/project_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_18/project_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_19/iris.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-custom/custom_01_pipeline/iris.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_19/project_classification_iris.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_19/project_classification_iris.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_20/housing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_20/housing.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_20/project_regression_boston.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_20/project_regression_boston.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_21/project_classification_sonar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_21/project_classification_sonar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_21/sonar.all-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_21/sonar.all-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_01/iris.data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-sklearn/chapter_19/iris.data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_01/moview_review.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-custom/custom_01_pipeline/moview_review.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_01/pipeline_iris.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-custom/custom_01_pipeline/pipeline_iris.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_01/pipeline_nlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-custom/custom_01_pipeline/pipeline_nlp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_02/eeg_eye_state.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-custom/custom_02_outliers/eeg_eye_state.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_02/eeg_eye_state_no_outliers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ml-custom/custom_02_outliers/eeg_eye_state_no_outliers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_02/removing_outliers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-custom/custom_02_outliers/removing_outliers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_02/visualize_outliers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-custom/custom_02_outliers/visualize_outliers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_02/walk_forward.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-custom/custom_02_outliers/walk_forward.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,21 +40,22 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/digits" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/digits" />
+      <recent name="$PROJECT_DIR$/analyse" />
+      <recent name="$PROJECT_DIR$/custom_02" />
+      <recent name="$PROJECT_DIR$/custom_01" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/titanic" />
       <recent name="$PROJECT_DIR$/ml-sklearn" />
       <recent name="$PROJECT_DIR$/ml-custom" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/analyse" />
-      <recent name="$PROJECT_DIR$/custom_02" />
-      <recent name="$PROJECT_DIR$/custom_01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,8 +70,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.13_plots_counts_by_group">
-    <configuration name="09_correlation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dojo_3">
+    <configuration name="cnn_win" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,12 +79,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/analyse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digits" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/analyse/09_correlation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digits/cnn_win.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_plots_count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dojo_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/analyse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digits" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/analyse/10_plots_count.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digits/dojo_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11_count_values" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dojo_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,12 +123,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/analyse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digits" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/analyse/11_count_values.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digits/dojo_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12_cut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dojo_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,12 +145,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/analyse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digits" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/analyse/12_cut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digits/dojo_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13_plots_counts_by_group" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,12 +167,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/titanic/analyse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digits" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/titanic/analyse/13_plots_counts_by_group.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digits/new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,19 +182,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.09_correlation" />
-      <item itemvalue="Python.10_plots_count" />
-      <item itemvalue="Python.11_count_values" />
-      <item itemvalue="Python.12_cut" />
-      <item itemvalue="Python.13_plots_counts_by_group" />
+      <item itemvalue="Python.dojo_1" />
+      <item itemvalue="Python.dojo_2" />
+      <item itemvalue="Python.dojo_3" />
+      <item itemvalue="Python.new" />
+      <item itemvalue="Python.cnn_win" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.13_plots_counts_by_group" />
-        <item itemvalue="Python.12_cut" />
-        <item itemvalue="Python.11_count_values" />
-        <item itemvalue="Python.10_plots_count" />
-        <item itemvalue="Python.09_correlation" />
+        <item itemvalue="Python.dojo_3" />
+        <item itemvalue="Python.cnn_win" />
+        <item itemvalue="Python.new" />
+        <item itemvalue="Python.dojo_2" />
+        <item itemvalue="Python.dojo_1" />
       </list>
     </recent_temporary>
   </component>
@@ -322,6 +213,7 @@
       <workItem from="1566172674808" duration="1453000" />
       <workItem from="1566325000385" duration="1167000" />
       <workItem from="1566839586640" duration="4972000" />
+      <workItem from="1566918336530" duration="6437000" />
     </task>
     <servers />
   </component>
@@ -344,23 +236,30 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/recipes_ml$12_cut.coverage" NAME="12_cut Coverage Results" MODIFIED="1566849312837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
     <SUITE FILE_PATH="coverage/recipes_ml$11_count_values.coverage" NAME="11_count_values Coverage Results" MODIFIED="1566848877875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$dojo.coverage" NAME="dojo Coverage Results" MODIFIED="1566918845656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits" />
     <SUITE FILE_PATH="coverage/recipes_ml$skew.coverage" NAME="skew Coverage Results" MODIFIED="1565896612256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_05" />
-    <SUITE FILE_PATH="coverage/recipes_ml$10_plots_count.coverage" NAME="10_plots_count Coverage Results" MODIFIED="1566848669410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
     <SUITE FILE_PATH="coverage/recipes_ml$removing_outliers.coverage" NAME="removing_outliers Coverage Results" MODIFIED="1566839767955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_02" />
-    <SUITE FILE_PATH="coverage/recipes_ml$13_plots_counts_by_group.coverage" NAME="13_plots_counts_by_group Coverage Results" MODIFIED="1566849523812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
     <SUITE FILE_PATH="coverage/recipes_ml$06_describe.coverage" NAME="06_describe Coverage Results" MODIFIED="1566846250265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
-    <SUITE FILE_PATH="coverage/recipes_ml$info_data_frame.coverage" NAME="info_data_frame Coverage Results" MODIFIED="1566044820790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analyse" />
-    <SUITE FILE_PATH="coverage/recipes_ml$05_count_missing_unique.coverage" NAME="05_count_missing_unique Coverage Results" MODIFIED="1566846192537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$dojo_1.coverage" NAME="dojo_1 Coverage Results" MODIFIED="1566919386020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits" />
     <SUITE FILE_PATH="coverage/recipes_ml$09_correlation.coverage" NAME="09_correlation Coverage Results" MODIFIED="1566848587323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
-    <SUITE FILE_PATH="coverage/recipes_ml$scatterplot_matrix.coverage" NAME="scatterplot_matrix Coverage Results" MODIFIED="1565899294885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_06" />
     <SUITE FILE_PATH="coverage/recipes_ml$02_shape_pandas.coverage" NAME="02_shape_pandas Coverage Results" MODIFIED="1566845933713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
-    <SUITE FILE_PATH="coverage/recipes_ml$08_type_category.coverage" NAME="08_type_category Coverage Results" MODIFIED="1566848484787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
-    <SUITE FILE_PATH="coverage/recipes_ml$02_correlations_data.coverage" NAME="02_correlations_data Coverage Results" MODIFIED="1566046218824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$dojo_2.coverage" NAME="dojo_2 Coverage Results" MODIFIED="1566919493885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits" />
     <SUITE FILE_PATH="coverage/recipes_ml$01_set_option_pandas.coverage" NAME="01_set_option_pandas Coverage Results" MODIFIED="1566845884998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
     <SUITE FILE_PATH="coverage/recipes_ml$walk_forward.coverage" NAME="walk_forward Coverage Results" MODIFIED="1566840046690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_02" />
+    <SUITE FILE_PATH="coverage/recipes_ml$07_columns.coverage" NAME="07_columns Coverage Results" MODIFIED="1566846377201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$10_plots_count.coverage" NAME="10_plots_count Coverage Results" MODIFIED="1566848669410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$13_plots_counts_by_group.coverage" NAME="13_plots_counts_by_group Coverage Results" MODIFIED="1566849523812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$cnn_win.coverage" NAME="cnn_win Coverage Results" MODIFIED="1566923805163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits" />
+    <SUITE FILE_PATH="coverage/recipes_ml$info_data_frame.coverage" NAME="info_data_frame Coverage Results" MODIFIED="1566044820790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$05_count_missing_unique.coverage" NAME="05_count_missing_unique Coverage Results" MODIFIED="1566846192537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$scatterplot_matrix.coverage" NAME="scatterplot_matrix Coverage Results" MODIFIED="1565899294885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_06" />
+    <SUITE FILE_PATH="coverage/recipes_ml$08_type_category.coverage" NAME="08_type_category Coverage Results" MODIFIED="1566848484787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$dojo_0.coverage" NAME="dojo_0 Coverage Results" MODIFIED="1566919261518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits" />
+    <SUITE FILE_PATH="coverage/recipes_ml$02_correlations_data.coverage" NAME="02_correlations_data Coverage Results" MODIFIED="1566046218824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$new.coverage" NAME="new Coverage Results" MODIFIED="1566923548385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits" />
     <SUITE FILE_PATH="coverage/recipes_ml$04_sample.coverage" NAME="04_sample Coverage Results" MODIFIED="1566846112235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
     <SUITE FILE_PATH="coverage/recipes_ml$03_info.coverage" NAME="03_info Coverage Results" MODIFIED="1566846024603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
     <SUITE FILE_PATH="coverage/recipes_ml$visualize_outliers.coverage" NAME="visualize_outliers Coverage Results" MODIFIED="1566839966102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_02" />
-    <SUITE FILE_PATH="coverage/recipes_ml$07_columns.coverage" NAME="07_columns Coverage Results" MODIFIED="1566846377201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic/analyse" />
+    <SUITE FILE_PATH="coverage/recipes_ml$dojo_3.coverage" NAME="dojo_3 Coverage Results" MODIFIED="1566924600682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/digits" />
   </component>
 </project>
