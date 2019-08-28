@@ -6,15 +6,29 @@ def sigmoid(z):
 
 
 # create dataset
+# Podemos optar com X random ou fixo
 X = numpy.random.randint(0, 5, size=(10, 3))
+X = numpy.asarray([[0, 0, 2],
+                   [0, 3, 0],
+                   [4, 3, 0],
+                   [3, 1, 2],
+                   [0, 4, 0],
+                   [4, 3, 1],
+                   [3, 4, 3],
+                   [0, 4, 0],
+                   [1, 3, 0],
+                   [4, 1, 2]])
 Y = numpy.asarray([1 for x in X])
-
 print(X)
 print(Y)
 
 # init weight
+# Podemos optar por random ou peso fixo
 w = (numpy.random.rand(X.shape[1], 1) - 0.5) * 0.1
 b = (numpy.random.rand(1, 1) - 0.5) * 0.1
+
+w = numpy.asarray([[0.1], [-0.1], [0]])
+b = numpy.asarray([0])
 print(w)
 print(b)
 
