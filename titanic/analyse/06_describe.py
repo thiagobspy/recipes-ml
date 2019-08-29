@@ -1,6 +1,6 @@
 import pandas
 
-df = pandas.read_csv('train.csv').drop(columns='PassengerId')
+df = pandas.read_csv('train.csv')
 
 print(df.describe(include='all'))
 
