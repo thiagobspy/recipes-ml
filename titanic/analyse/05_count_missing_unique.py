@@ -1,6 +1,6 @@
 import pandas
 
-df = pandas.read_csv('train.csv').drop(columns='PassengerId')
+df = pandas.read_csv('train.csv')
 
 datadict = pandas.DataFrame(df.dtypes)
 datadict = datadict.rename(columns={0: 'DataType'})

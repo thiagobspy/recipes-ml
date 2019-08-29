@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498c4294-c98c-4b5b-b0fe-6f34e3b3f676" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/digits/cnn_win.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digits/dojo_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digits/dojo_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digits/dojo_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digits/dojo_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digits/sample_submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digits/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digits/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cat-in-the-dat/main_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat-in-the-dat/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cat-in-the-dat/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/analyse/01_set_option_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/analyse/01_set_option_pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/analyse/02_shape.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/analyse/02_shape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/analyse/03_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/analyse/03_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/analyse/04_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/analyse/04_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/analyse/05_count_missing_unique.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/analyse/05_count_missing_unique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/analyse/06_describe.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/analyse/06_describe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/analyse/07_columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/analyse/07_columns.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dojo_3">
+  <component name="RunManager" selected="Python.main">
     <configuration name="cnn_win" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,28 +85,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digits/cnn_win.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dojo_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digits" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digits/dojo_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,6 +137,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cat-in-the-dat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cat-in-the-dat/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,19 +179,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dojo_1" />
       <item itemvalue="Python.dojo_2" />
       <item itemvalue="Python.dojo_3" />
       <item itemvalue="Python.new" />
       <item itemvalue="Python.cnn_win" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.dojo_3" />
         <item itemvalue="Python.cnn_win" />
         <item itemvalue="Python.new" />
         <item itemvalue="Python.dojo_2" />
-        <item itemvalue="Python.dojo_1" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +211,7 @@
       <workItem from="1566325000385" duration="1167000" />
       <workItem from="1566839586640" duration="4972000" />
       <workItem from="1566918336530" duration="6437000" />
+      <workItem from="1567032700433" duration="400000" />
     </task>
     <servers />
   </component>
