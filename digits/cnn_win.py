@@ -23,7 +23,7 @@ print(Y_train.value_counts())
 
 Y_train = to_categorical(Y_train, num_classes=10)
 
-X_train, X_test, y_train, y_test = train_test_split(X_train, Y_train, test_size=0.33, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X_train, Y_train, test_size=0.01, random_state=42)
 
 X_train = X_train.values.reshape(-1, 28, 28, 1)
 X_test = X_test.values.reshape(-1, 28, 28, 1)
@@ -48,7 +48,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 
 checkpointer = ModelCheckpoint(filepath='mnist.model.best.hdf5', verbose=1, save_best_only=True)
 reduce_lr = ReduceLROnPlateau(monitor='loss', factor=0.3, verbose=1, patience=2, min_lr=0.00000001)
-model.fit(X_train, y_train, batch_size=128, epochs=10, validation_data=(X_test, y_test),
+model.fit(X_train, y_train, batch_size=128, epochs=25, validation_data=(X_test, y_test),
           callbacks=[checkpointer, reduce_lr])
 
 model.summary()
