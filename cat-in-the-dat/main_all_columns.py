@@ -1,10 +1,11 @@
 import pandas
 from keras import Sequential
+from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau
 from keras.layers import Dense, Dropout
 from sklearn.model_selection import train_test_split
 
 '''
-Peguei somente colunas que tinham no maximo 26 valores unicos, mais que isso foi ignorado.
+Pego todas as colunas do dataset e aplicado dummies
 '''
 
 pandas.set_option('display.width', 300)
@@ -14,7 +15,7 @@ pandas.set_option('precision', 3)
 df_train = pandas.read_csv('train.csv')
 df_test = pandas.read_csv('test.csv')
 
-df_train = pandas.concat([df_train[df_train.target == 0].sample(90000), df_train[df_train.target == 1].sample(90000)])
+# df_train = pandas.concat([df_train[df_train.target == 0].sample(90000), df_train[df_train.target == 1].sample(90000)])
 Y = df_train.target
 
 df = pandas.concat([df_train, df_test])
@@ -38,32 +39,31 @@ for column in df.columns:
     print(column)
     print(df[column].value_counts(), end='\n\n\n')
 
-columns = datadict[datadict['NUnique'] <= 26].index
-new_df = df[columns]
-new_df_without_target = new_df.drop(columns='target')
+new_df_without_target = df.drop(columns=['target', 'id', 'nom_9'])
 df_str = new_df_without_target.astype(str)
 
 X = pandas.get_dummies(df_str)
-X_train = X.iloc[:180000]
-X_test = X.iloc[180000:]
+X_train = X.iloc[:300000]
+X_test = X.iloc[300000:]
 
 X_train, X_val, y_train, y_val = train_test_split(X_train, Y, test_size=0.33, random_state=42)
 
 model = Sequential()
-model.add(Dense(units=256, input_dim=X.shape[1], activation='relu'))
+model.add(Dense(units=512, input_dim=X.shape[1], activation='relu'))
 model.add(Dropout(0.5))
-model.add(Dense(units=128, activation='relu'))
+model.add(Dense(units=256, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(units=64, activation='relu'))
 model.add(Dropout(0.5))
-model.add(Dense(units=32, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(units=8, activation='relu'))
 model.add(Dense(units=1, activation='sigmoid'))
+
+checkpoint = ModelCheckpoint(filepath='cat.model.best.hdf5', verbose=1, save_best_only=True)
+reduce_lr = ReduceLROnPlateau(monitor='loss', factor=0.3, verbose=1, patience=2, min_lr=0.00000001)
 
 model.compile(optimizer='sgd', loss='binary_crossentropy', metrics=['accuracy'])
 
-model.fit(X_train, y_train, batch_size=128, epochs=40, validation_data=(X_val, y_val))
+model.fit(X_train, y_train, batch_size=128, epochs=50, validation_data=(X_val, y_val),
+          callbacks=[checkpoint, reduce_lr])
 
 data_final = pandas.read_csv('sample_submission.csv')
 data_final['target'] = model.predict(X_test)
