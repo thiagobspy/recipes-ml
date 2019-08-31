@@ -5,6 +5,8 @@ from sklearn.model_selection import train_test_split
 
 '''
 Peguei somente colunas que tinham no maximo 26 valores unicos, mais que isso foi ignorado.
+
+0.74
 '''
 
 pandas.set_option('display.width', 300)

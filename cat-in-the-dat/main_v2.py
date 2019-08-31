@@ -6,6 +6,8 @@ from sklearn.model_selection import train_test_split
 
 '''
 Pego todas as colunas do dataset e aplicado dummies
+
+0.79
 '''
 
 pandas.set_option('display.width', 300)
