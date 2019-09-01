@@ -1,0 +1,4 @@
+,means,params,stds
+0,0.7506925925925926,"{'neuros': (512, 256, 64), 'loss': 'binary_crossentropy', 'epochs': 50, 'batch_size': 128, 'optimizer': 'sgd', 'dropout': 0.5, 'init_mode': 'glorot_uniform'}",0.0008207360609573817
+1,0.7133518518518519,"{'neuros': (512, 256, 64), 'loss': 'binary_crossentropy', 'epochs': 50, 'batch_size': 128, 'optimizer': 'rmsprop', 'dropout': 0.5, 'init_mode': 'glorot_uniform'}",0.01245638426335362
+2,0.7319407407407408,"{'neuros': (512, 256, 64), 'loss': 'binary_crossentropy', 'epochs': 50, 'batch_size': 128, 'optimizer': 'adam', 'dropout': 0.5, 'init_mode': 'glorot_uniform'}",0.0008900147191335248

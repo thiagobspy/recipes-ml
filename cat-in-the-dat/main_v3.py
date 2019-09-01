@@ -1,5 +1,6 @@
 import pandas
 from keras import Sequential
+from keras.callbacks import ReduceLROnPlateau
 from keras.layers import Dense, Dropout
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -52,31 +53,32 @@ X_train, X_val, y_train, y_val = train_test_split(X_train, Y, test_size=0.10, ra
 params = dict(
     optimizer=[
         'sgd',
-        'rmsprop',
-        'adam',
     ],
     loss=[
         'binary_crossentropy',
     ],
     init_mode=[
-        'uniform'
+        'glorot_uniform'
     ],
-    epochs=[15, 50],
-    batch_size=[1024, 4096],
-    neuros=[
-        (1000, 1000, 1000, 100),
-        (512, 256, 64),
-        (256, 64),
-        (500, 1000, 500, 200),
-        (2000, 1000, 500, 120, 50),
-    ],
-    dropout=[0.3, 0.5],
+    epochs=[50, 100],
+    batch_size=[128],
+    neuros=[(512, 256, 64)],
+    dropout=[0.5]
+    # epochs=[15, 50],
+    # batch_size=[1024, 4096],
+    # neuros=[
+    #     (1000, 1000, 1000, 100),
+    #     (512, 256, 64),
+    #     (256, 64),
+    #     (500, 1000, 500, 200),
+    #     (2000, 1000, 500, 120, 50),
+    # ],
+    # dropout=[0.3, 0.5],
 )
 
 
 def create_model(init_mode, optimizer, loss, neuros, dropout):
     model = Sequential()
-
     first = True
     for neuro in neuros:
         if first:
@@ -87,17 +89,15 @@ def create_model(init_mode, optimizer, loss, neuros, dropout):
         model.add(Dropout(dropout))
 
     model.add(Dense(units=1, kernel_initializer=init_mode, activation='sigmoid'))
-
     model.compile(optimizer=optimizer, loss=loss, metrics=['accuracy'])
-
     return model
 
 
 model = KerasClassifier(build_fn=create_model, verbose=2)
+grid = GridSearchCV(estimator=model, param_grid=params, cv=2, n_jobs=1)
 
-grid = GridSearchCV(estimator=model, param_grid=params, cv=3, n_jobs=1)
-
-grid_result = grid.fit(X_train, y_train, validation_data=(X_val, y_val))
+reduce_lr = ReduceLROnPlateau(monitor='loss', factor=0.3, verbose=1, patience=2, min_lr=0.00000001)
+grid_result = grid.fit(X_train, y_train, validation_data=(X_val, y_val), callbacks=[reduce_lr])
 
 # summarize results
 means = grid_result.cv_results_['mean_test_score']
@@ -106,9 +106,9 @@ params = grid_result.cv_results_['params']
 
 # write results
 result = pandas.DataFrame({'means': means, 'stds': stds, 'params': params})
-result.to_csv('results_grid.csv')
+result.to_csv('results_grid_epochs_2.csv')
 
 # predict to submit
 data_final = pandas.read_csv('sample_submission.csv')
-data_final['target'] = grid.predict_proba(X_train)[:, 1]
+data_final['target'] = grid.predict_proba(X_test)[:, 1]
 data_final.to_csv('final.csv', index=False)

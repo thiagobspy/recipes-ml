@@ -1,5 +1,7 @@
 import numpy
-
+'''
+Com camada de entrada e de saida apenas
+'''
 # create dataset
 # Podemos optar com X random ou fixo
 X = numpy.random.randint(0, 5, size=(10, 3))
