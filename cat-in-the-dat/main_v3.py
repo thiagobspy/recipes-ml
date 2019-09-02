@@ -60,20 +60,16 @@ params = dict(
     init_mode=[
         'glorot_uniform'
     ],
-    epochs=[50, 100],
+    epochs=[40],
     batch_size=[128],
-    neuros=[(512, 256, 64)],
-    dropout=[0.5]
-    # epochs=[15, 50],
-    # batch_size=[1024, 4096],
-    # neuros=[
-    #     (1000, 1000, 1000, 100),
-    #     (512, 256, 64),
-    #     (256, 64),
-    #     (500, 1000, 500, 200),
-    #     (2000, 1000, 500, 120, 50),
-    # ],
-    # dropout=[0.3, 0.5],
+    neuros=[
+        (1000, 1000, 1000, 100),
+        (512, 256, 64),
+        (256, 64),
+        (500, 1000, 500, 200),
+        (2000, 1000, 500, 120, 50),
+    ],
+    dropout=[0.3, 0.5],
 )
 
 
@@ -106,7 +102,7 @@ params = grid_result.cv_results_['params']
 
 # write results
 result = pandas.DataFrame({'means': means, 'stds': stds, 'params': params})
-result.to_csv('results_grid_epochs_2.csv')
+result.to_csv('results_grid_layers.csv')
 
 # predict to submit
 data_final = pandas.read_csv('sample_submission.csv')

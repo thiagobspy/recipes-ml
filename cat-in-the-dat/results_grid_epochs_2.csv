@@ -1,0 +1,3 @@
+,means,params,stds
+0,0.7504444444426783,"{'loss': 'binary_crossentropy', 'dropout': 0.5, 'init_mode': 'glorot_uniform', 'epochs': 50, 'batch_size': 128, 'neuros': (512, 256, 64), 'optimizer': 'sgd'}",0.0007777777618832027
+1,0.7331814814832476,"{'loss': 'binary_crossentropy', 'dropout': 0.5, 'init_mode': 'glorot_uniform', 'epochs': 100, 'batch_size': 128, 'neuros': (512, 256, 64), 'optimizer': 'sgd'}",0.0018999999876375684
