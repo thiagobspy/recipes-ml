@@ -1,0 +1,11 @@
+,means,params,stds
+0,0.723955555567918,"{'loss': 'binary_crossentropy', 'neuros': (1000, 1000, 1000, 100), 'epochs': 40, 'dropout': 0.3, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.003503703701937644
+1,0.7491962963033606,"{'loss': 'binary_crossentropy', 'neuros': (512, 256, 64), 'epochs': 40, 'dropout': 0.3, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.0009592592521950327
+2,0.7565370370335049,"{'loss': 'binary_crossentropy', 'neuros': (256, 64), 'epochs': 40, 'dropout': 0.3, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.0005592592486629022
+3,0.7289481481410839,"{'loss': 'binary_crossentropy', 'neuros': (500, 1000, 500, 200), 'epochs': 40, 'dropout': 0.3, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.003644444447976569
+4,0.7107481481463821,"{'loss': 'binary_crossentropy', 'neuros': (2000, 1000, 500, 120, 50), 'epochs': 40, 'dropout': 0.3, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.022325925910031352
+5,0.7451814814779494,"{'loss': 'binary_crossentropy', 'neuros': (1000, 1000, 1000, 100), 'epochs': 40, 'dropout': 0.5, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.004285185178120932
+6,0.7517037036931074,"{'loss': 'binary_crossentropy', 'neuros': (512, 256, 64), 'epochs': 40, 'dropout': 0.5, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.00025925926632353047
+7,0.7564185185132203,"{'loss': 'binary_crossentropy', 'neuros': (256, 64), 'epochs': 40, 'dropout': 0.5, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.001218518530880952
+8,0.7381074074180037,"{'loss': 'binary_crossentropy', 'neuros': (500, 1000, 500, 200), 'epochs': 40, 'dropout': 0.5, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.004951851855383993
+9,0.738800000001766,"{'loss': 'binary_crossentropy', 'neuros': (2000, 1000, 500, 120, 50), 'epochs': 40, 'dropout': 0.5, 'batch_size': 128, 'init_mode': 'glorot_uniform', 'optimizer': 'sgd'}",0.002733333331567278
