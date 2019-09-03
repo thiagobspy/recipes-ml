@@ -70,25 +70,9 @@ def select_k_best(x, y, test):
     return 'select_k_best', skb.transform(x), skb.transform(test)
 
 
-def rfe(x, y, test):
-    lg = LogisticRegression(solver='lbfgs')
-    rfe = RFE(lg)
-    rfe.fit(x, y)
-    return 'rfe', rfe.transform(x), rfe.transform(test)
-
-
-def extra_trees(x, y, test):
-    clf = ExtraTreesClassifier(n_estimators=x.shape[1] // 3)
-    clf = clf.fit(x, y)
-    sfm = SelectFromModel(clf, prefit=True)
-    return 'extra_tress', sfm.transform(x), sfm.transform(test)
-
-
 feature_selections = [
     select_from_model,
     select_k_best,
-    rfe,
-    extra_trees
 ]
 
 for feature_selection in feature_selections:
@@ -109,13 +93,10 @@ for feature_selection in feature_selections:
         init_mode=[
             'glorot_uniform'
         ],
-        epochs=[40, 60, 80],
+        epochs=[40, 60],
         batch_size=[128],
         neuros=[
             (64, 64),
-            (256, 64),
-            (512, 256, 64),
-            (512, 1024, 256),
         ],
         dropout=[0.3],
     )
@@ -145,7 +126,7 @@ for feature_selection in feature_selections:
 
     model = KerasClassifier(build_fn=create_model, verbose=2)
     LogLoss = make_scorer(log_loss, greater_is_better=False, needs_proba=True)
-    grid = GridSearchCV(estimator=model, param_grid=params, cv=2, n_jobs=1, scoring=LogLoss)
+    grid = GridSearchCV(estimator=model, param_grid=params, cv=2, n_jobs=1)
 
     reduce_lr = ReduceLROnPlateau(monitor='loss', factor=0.3, verbose=1, patience=2, min_lr=0.00000001)
     grid_result = grid.fit(X_train, y_train, validation_data=(X_val, y_val), callbacks=[reduce_lr])

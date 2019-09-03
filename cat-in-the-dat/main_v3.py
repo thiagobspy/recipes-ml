@@ -63,13 +63,16 @@ params = dict(
     epochs=[40],
     batch_size=[128],
     neuros=[
-        (256, 64),
+        (64,),
     ],
     dropout=[0.3],
 )
 
 
 def create_model(init_mode, optimizer, loss, neuros, dropout):
+    print('Strating...', )
+    print('Neuros: ', neuros)
+
     model = Sequential()
     first = True
     for neuro in neuros:

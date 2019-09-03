@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 '''
 Pego todas as colunas do dataset e aplicado dummies
 
-0.79
+0.80337
 '''
 
 pandas.set_option('display.width', 300)
@@ -48,15 +48,10 @@ X = pandas.get_dummies(df_str)
 X_train = X.iloc[:300000]
 X_test = X.iloc[300000:]
 
-X_train, X_val, y_train, y_val = train_test_split(X_train, Y, test_size=0.33, random_state=42)
+X_train, X_val, y_train, y_val = train_test_split(X_train, Y, test_size=0.10, random_state=42)
 
 model = Sequential()
-model.add(Dense(units=512, input_dim=X.shape[1], activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(units=256, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(units=64, activation='relu'))
-model.add(Dropout(0.5))
+model.add(Dense(units=64, input_dim=X.shape[1], activation='relu'))
 model.add(Dense(units=1, activation='sigmoid'))
 
 checkpoint = ModelCheckpoint(filepath='cat.model.best.hdf5', verbose=1, save_best_only=True)
