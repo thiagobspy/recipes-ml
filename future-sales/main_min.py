@@ -53,11 +53,9 @@ df_full.item_cnt_day = df_full.item_cnt_day.astype(int)
 df_full.rename(columns={'date_block_num': 'month', 'item_cnt_day': 'count'}, inplace=True)
 
 df_full.drop(columns=['shop_id'], inplace=True)
-df_full.item_id = df_full.item_id.astype(str)
-df = pandas.get_dummies(df_full)
 
-df = df[df.month > 28]
-df.drop(columns=['month'], inplace=True)
+df = df_full[df_full.month > 29]
+df.drop(columns=['month', 'item_id'], inplace=True)
 
 
 def split_sequence(sequence, n_steps):
@@ -72,7 +70,7 @@ def split_sequence(sequence, n_steps):
     return X, y
 
 
-X_train, Y_train = split_sequence(df, 3)
+X_train, Y_train = split_sequence(df, 2)
 X_train = [x.values for x in X_train]
 Y_train = [y['count'].values[0] for y in Y_train]
 
@@ -88,4 +86,4 @@ model.add(LSTM(256, input_shape=(X_train.shape[1], X_train.shape[2]), activation
 model.add(Dense(64, activation='relu'))
 model.add(Dense(1, activation='relu'))
 model.compile(loss='mean_squared_error', optimizer='adam')
-model.fit(X_train, y_train, epochs=40, batch_size=128, validation_data=(X_val, y_val))
+model.fit(X_train, y_train, epochs=40, batch_size=16, validation_data=(X_val, y_val))
