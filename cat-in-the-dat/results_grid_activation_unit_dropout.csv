@@ -1,0 +1,5 @@
+,means,params,stds
+0,0.7643508772097136,"{'activation': 'relu', 'optimizer': 'sgd', 'neuros': (128,), 'dropout': 0.15, 'init_mode': 'glorot_uniform', 'batch_size': 32, 'loss': 'binary_crossentropy', 'epochs': 40}",0.0
+1,0.7649824561905443,"{'activation': 'relu', 'optimizer': 'sgd', 'neuros': (128,), 'dropout': 0.15, 'init_mode': 'glorot_uniform', 'batch_size': 128, 'loss': 'binary_crossentropy', 'epochs': 40}",0.0
+2,0.7661754385881256,"{'activation': 'tanh', 'optimizer': 'sgd', 'neuros': (128,), 'dropout': 0.15, 'init_mode': 'glorot_uniform', 'batch_size': 32, 'loss': 'binary_crossentropy', 'epochs': 40}",0.0
+3,0.7661052631997226,"{'activation': 'tanh', 'optimizer': 'sgd', 'neuros': (128,), 'dropout': 0.15, 'init_mode': 'glorot_uniform', 'batch_size': 128, 'loss': 'binary_crossentropy', 'epochs': 40}",0.0
