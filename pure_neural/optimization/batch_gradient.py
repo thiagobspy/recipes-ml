@@ -1,0 +1,21 @@
+"""
+W = W - a * dW
+b = b - a * db
+
+w = weight
+dw = derivada weight
+a = taxa de aprendizado
+
+
+Executa com todos exemplos, sem mini batch.
+"""
+
+
+def update_parameters_with_gd(parameters, grads, learning_rate):
+    L = len(parameters) // 2
+
+    for l in range(L):
+        parameters["W" + str(l + 1)] = parameters["W" + str(l + 1)] - learning_rate * grads['dW' + str(l + 1)]
+        parameters["b" + str(l + 1)] = parameters["b" + str(l + 1)] - learning_rate * grads['db' + str(l + 1)]
+
+    return parameters
