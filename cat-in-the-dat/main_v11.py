@@ -58,23 +58,16 @@ del X
 X_train, X_val, y_train, y_val = train_test_split(X_train, Y, test_size=0.05, random_state=42)
 
 model = Sequential()
-model.add(Dense(units=256, input_dim=X_train.shape[1], activation='relu', kernel_regularizer='l2'))
-model.add(Dropout(0.4))
-model.add(BatchNormalization())
-model.add(Dense(units=512, activation='relu', kernel_regularizer='l2'))
-model.add(Dropout(0.4))
-model.add(BatchNormalization())
-model.add(Dense(units=128, activation='tanh', kernel_regularizer='l2'))
-model.add(Dropout(0.4))
-model.add(Dense(units=1, activation='sigmoid', kernel_regularizer='l2'))
+model.add(Dense(units=1, input_dim=X_train.shape[1], activation='sigmoid'))
 
+es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=9)
 checkpoint = ModelCheckpoint(filepath='cat.model.best.hdf5', verbose=1, save_best_only=True)
-reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.9, verbose=1, patience=2, min_lr=0.00001)
+reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.9, verbose=1, patience=4, min_lr=0.00001)
 
 model.compile(optimizer='sgd', loss='binary_crossentropy', metrics=['accuracy'])
 
 model.fit(X_train, y_train, batch_size=32, epochs=100, validation_data=(X_val, y_val),
-          callbacks=[checkpoint, reduce_lr], verbose=2)
+          callbacks=[checkpoint, reduce_lr, es], verbose=2)
 
 data_final = pandas.read_csv('sample_submission.csv')
 data_final['target'] = model.predict(X_test)
