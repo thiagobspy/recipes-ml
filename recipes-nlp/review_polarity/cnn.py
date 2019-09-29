@@ -113,16 +113,14 @@ pool1 = MaxPooling1D(pool_size=2)(drop1)
 flat1 = Flatten()(pool1)
 
 # channel 2
-inputs2 = Input(shape=(length,))
-embedding2 = Embedding(vocab_size, 100)(inputs2)
+embedding2 = Embedding(vocab_size, 100)(inputs1)
 conv2 = Conv1D(filters=32, kernel_size=6, activation='relu')(embedding2)
 drop2 = Dropout(0.5)(conv2)
 pool2 = MaxPooling1D(pool_size=2)(drop2)
 flat2 = Flatten()(pool2)
 
 # channel 3
-inputs3 = Input(shape=(length,))
-embedding3 = Embedding(vocab_size, 100)(inputs3)
+embedding3 = Embedding(vocab_size, 100)(inputs1)
 conv3 = Conv1D(filters=32, kernel_size=8, activation='relu')(embedding3)
 drop3 = Dropout(0.5)(conv3)
 pool3 = MaxPooling1D(pool_size=2)(drop3)
@@ -134,7 +132,7 @@ merged = concatenate([flat1, flat2, flat3])
 # interpretation
 dense1 = Dense(10, activation='relu')(merged)
 outputs = Dense(1, activation='sigmoid')(dense1)
-model = Model(inputs=[inputs1, inputs2, inputs3], outputs=outputs)
+model = Model(inputs=[inputs1], outputs=outputs)
 
 # compile
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
@@ -142,7 +140,7 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 
 model.summary()
 
-model.fit([padded, padded, padded], df['target'], epochs=7, batch_size=16)
+model.fit([padded], df['target'], epochs=7, batch_size=16)
 
 
 def whats_sentiment(text):
