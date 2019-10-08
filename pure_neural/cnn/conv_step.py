@@ -1,8 +1,6 @@
 import numpy as np
 
 
-# GRADED FUNCTION: conv_forward
-
 def conv_forward(A_prev, W, b, hparameters):
     (m, n_H_prev, n_W_prev, n_C_prev) = A_prev.shape
 
