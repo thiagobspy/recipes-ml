@@ -44,6 +44,8 @@ I would continue adding papers to this roadmap.
 
 **[7]** He, Kaiming, et al. "**Deep residual learning for image recognition**." arXiv preprint arXiv:1512.03385 (2015). [[pdf]](https://arxiv.org/pdf/1512.03385.pdf) **(ResNet,Very very deep networks, CVPR best paper)** :star::star::star::star::star:
 
+**[__]** Yann LeCun, Leon Bottou, Yoshua Bengio and Patrick Haffner "GradientBased Learning Applied to Document Recognition" arXiv preprint arXiv:1603.01670 (2016). [[pdf]](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf) **(LeNet-5)** :star::star::star:
+
 ## 1.4 Speech Recognition Evolution
 
 **[8]** Hinton, Geoffrey, et al. "**Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups**." IEEE Signal Processing Magazine 29.6 (2012): 82-97. [[pdf]](http://cs224d.stanford.edu/papers/maas_paper.pdf) **(Breakthrough in speech recognition)**:star::star::star::star:
