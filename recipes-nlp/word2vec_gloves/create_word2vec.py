@@ -2,7 +2,6 @@ import re
 import string
 import multiprocessing
 import pandas as pd
-from gensim.models.phrases import Phrases, Phraser
 from gensim.models import Word2Vec
 from nltk.corpus import stopwords
 
@@ -28,7 +27,6 @@ def clean_doc(doc):
 text_cleaned = df.apply(lambda x: clean_doc(x['spoken_words']), axis=1)
 
 cores = multiprocessing.cpu_count()
-print(cores)
 model = Word2Vec(text_cleaned, min_count=10, workers=cores)
 
 # Otimizar memoria porem nao pode mais se treinado
@@ -53,5 +51,3 @@ model.wv.similarity('bart', 'nelson')
 model.wv.doesnt_match(['jimbo', 'milhouse', 'kearney'])
 model.wv.doesnt_match(['bart', 'marge', 'homer', 'lisa', 'magie', 'moe', 'nelson'])
 model.wv.doesnt_match(["nelson", "bart", "milhouse"])
-
-
