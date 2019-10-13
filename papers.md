@@ -46,6 +46,8 @@ I would continue adding papers to this roadmap.
 
 **[__]** Yann LeCun, Leon Bottou, Yoshua Bengio and Patrick Haffner "GradientBased Learning Applied to Document Recognition" arXiv preprint arXiv:1603.01670 (2016). [[pdf]](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf) **(LeNet-5)** :star::star::star:
 
+**[__]** Min Lin, Qiang Chen, Shuicheng Yan "Network In Network" Tue, 4 Mar 2014 05:15:42 UTC [[pdf]](https://arxiv.org/pdf/1312.4400.pdf) **(Network In Network)** :star::star::star:
+
 ## 1.4 Speech Recognition Evolution
 
 **[8]** Hinton, Geoffrey, et al. "**Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups**." IEEE Signal Processing Magazine 29.6 (2012): 82-97. [[pdf]](http://cs224d.stanford.edu/papers/maas_paper.pdf) **(Breakthrough in speech recognition)**:star::star::star::star:
@@ -97,7 +99,6 @@ I would continue adding papers to this roadmap.
 ## 2.3 Unsupervised Learning / Deep Generative Model
 
 **[27]** Le, Quoc V. "**Building high-level features using large scale unsupervised learning**." 2013 IEEE international conference on acoustics, speech and signal processing. IEEE, 2013. [[pdf]](http://arxiv.org/pdf/1112.6209.pdf&embed) **(Milestone, Andrew Ng, Google Brain Project, Cat)** :star::star::star::star:
-
 
 **[28]** Kingma, Diederik P., and Max Welling. "**Auto-encoding variational bayes**." arXiv preprint arXiv:1312.6114 (2013). [[pdf]](http://arxiv.org/pdf/1312.6114) **(VAE)** :star::star::star::star:
 
