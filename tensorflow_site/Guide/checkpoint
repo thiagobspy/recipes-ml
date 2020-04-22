@@ -1,0 +1,2 @@
+model_checkpoint_path: "submodel_tf"
+all_model_checkpoint_paths: "submodel_tf"
